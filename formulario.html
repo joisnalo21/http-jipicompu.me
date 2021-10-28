@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jornadas de Desarrollo de Software</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="contenedor">
+          <div class="logo"><i class="fas fa-microchip"></i> NOVA-Tech</div>
+          <a href="./">Inicio</a>
+          <a href="./#art1">Talleres</a>
+          <a href="#">Inversión</a>
+          <a href="formulario.html">Registro</a>
+          <a href="inscritos.php">Inscritos</a>
+        </div>
+      </nav>
+    </header>
+    <main id="blog">
+      <div class="contenedor2">
+        <h2>Formulario de registro</h2>
+        <form method="post" action="procesar.php">
+        <div class="camposform">
+          <label for="nombres" class="form-label">Nombres y Apellidos</label>
+          <input type="text" name="nombres" class="caja" id="nombres" required>
+        </div>
+        <div class="camposform">
+          <label for="correo" class="form-label">Correo</label>
+          <input type="email" name="correo" class="caja" id="correo" required>
+        </div>
+        <div class="camposform">
+          <label for="dni" class="form-label">DNI</label>
+          <input type="number" name="dni" class="caja" id="dni" required>
+        </div>
+        <div class="camposform">
+          <label for="pais" class="form-label">País</label>
+          <input type="text" name="pais" class="caja" id="pais" >
+        </div>
+        <div class="camposform">
+          <label for="ciudad" class="form-label">Ciudad</label>
+          <input type="text" name="ciudad" class="caja" id="ciudad" >
+        </div>
+        <div class="camposform">
+          <label for="profesion" class="form-label">Profesión</label>
+          <input type="text" name="profesion" class="caja" id="profesion" >
+        </div>
+        <button 
+        <button type="submit" class="btn btn-primary">Guardar</button>
+      </form>
+      </div>  
+    </main>
+    <footer>
+      <div class="contenedor-imagen">
+        <img src="images/slider2.jpg" alt="" />
+      </div>
+      <nav class="navbar">
+        <div class="contenedor">
+          <a href="#">Inicio</a>
+          <a href="#">Servicios</a>
+          <a href="#">Precios</a>
+          <a href="#">Compañía</a>
+          <a href="#">Soporte</a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
